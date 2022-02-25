@@ -1,0 +1,555 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ferguson's text explain'd and apply'd, in a sermon before the Right Honourable Sir Robert Geffery, Kt., Lord Mayor of London, at Guild-Hall Chappel, December the 6th, anno 1685 by Robert Wensley ...</title>
+            <author>Wensley, Robert, 1647-1689.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1686</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 53 KB of XML-encoded text transcribed from 18 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A65440</idno>
+            <idno type="STC">Wing W1352</idno>
+            <idno type="STC">ESTC R15240</idno>
+            <idno type="EEBO-CITATION">13144604</idno>
+            <idno type="OCLC">ocm 13144604</idno>
+            <idno type="VID">98042</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A65440)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 98042)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 780:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Ferguson's text explain'd and apply'd, in a sermon before the Right Honourable Sir Robert Geffery, Kt., Lord Mayor of London, at Guild-Hall Chappel, December the 6th, anno 1685 by Robert Wensley ...</title>
+                  <author>Wensley, Robert, 1647-1689.</author>
+               </titleStmt>
+               <extent>[6], 28 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Tho. Milbourne for Benjamin Tooke ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1686.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Marginal notes.</note>
+                  <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Ezekiel XXI, 25-27 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-02</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-04</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2012-04</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:98042:1"/>
+            <pb facs="tcp:98042:1" rendition="simple:additions"/>
+            <p> 
+               <hi>Ferguſon</hi>'s <hi>Text Explain'd and Apply'd,</hi> IN A SERMON Before the Right Honourable, Sir <hi>Robert Geffery,</hi> Kt. Lord Mayor of <hi>LONDON;</hi> AT Guild-Hall Chappel, <hi>December</hi> the <hi>6th. Anno Dom.</hi> 1685. BY <hi>Robert Wenſley,</hi> Vicar of <hi>Cheſthunt, Hartfordſhire.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Tho. Milbourn,</hi> for <hi>Benjamin Tooke,</hi> at the <hi>Ship</hi> in St. <hi>Paul</hi>'s Church-Yard. 1686.</p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:98042:2"/>
+            <p>Imprimatur,</p>
+            <closer>
+               <signed>C. ALSTON R. P. D. HEN. Epiſc. Lond. a Sacris Domeſticis.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:98042:2"/>
+            <head>To the Right Honourable, Sir <hi>Robert Geffery,</hi> Kt. Lord Mayor OF THE City of LONDON.</head>
+            <opener>
+               <salute>MY Lord,</salute>
+            </opener>
+            <p>THE ſo extraordinary Ci<g ref="char:EOLhyphen"/>vility <hi>Your Lordſhip</hi> was pleas'd to expreſs to me for this SERMON, (which I can attribute to nothing but the deſign of it, <hi>viz. Loyalty,</hi> which is, and always hath been moſt grateful to <hi>Your Lordſhip)</hi> hath however ſo
+<pb facs="tcp:98042:3"/> highly oblig'd me, that I ſhould think my ſelf guilty of no leſs Ingratitude, than that which I blame in others, ſhould I refuſe to ſubmit it to <hi>Your Lordſhips</hi> Diſpoſal.</p>
+            <p>I beg leave to tell <hi>Your Lordſhip,</hi> That this Diſcourſe was firſt Preach'd <hi>(mutatis mutandis)</hi> when the <hi>late Duke of Monmouth</hi> was in the heighth of his Rebellion, in my own Pariſh; where not only <hi>Caſtares,</hi> but <hi>Ferguſon</hi> him<g ref="char:EOLhyphen"/>ſelf, (that Bloodieſt of all the Re<g ref="char:EOLhyphen"/>bels) was formerly at <hi>The Conventicle at Theobalds,</hi> a Frequent, and amongſt his Followers, a moſt Celebrated Preacher.</p>
+            <p>Wherefore, I thought it my Duty to let my People ſee, how much they had been abuſed by him, and ſuch Seducers, and to Preach up <hi>Loyalty</hi> amongſt them from his own Text, which (as I was then Inform'd) he
+<pb facs="tcp:98042:3"/> had wreſted to Rebellious Deſigns.</p>
+            <p>By this, <hi>Your Lordſhip</hi> may plainly ſee, that I have always (even in the worſt of Times) endeavoured to do my Duty to <hi>God</hi> and the <hi>King,</hi> with all Faithfulneſs; though I am forced to tell <hi>Your Lordſhip,</hi> (becauſe I live by ſome ill Neighbours, who ſeek to do me all the Miſchief they can, only becauſe by all means Lawful I endeavour to make them do their Duties) That I have Laboured un<g ref="char:EOLhyphen"/>der the greateſt Diſadvantage and Diſcouragement, and ſuffered the greateſt Perſecution for it, of any Man in <hi>England</hi> (that I know of) of my Age and Station.</p>
+            <p>All that I can return to <hi>Your Lord<g ref="char:EOLhyphen"/>ſhip</hi> for your great kindneſs, is only (like Beggars) to have Recourſe to my Prayers for you, That <hi>Your Lord<g ref="char:EOLhyphen"/>ſhips</hi> Name may be as Famous in all
+<pb facs="tcp:98042:4"/> Ages for <hi>Loyalty,</hi> and for the Juſt and Honourable Rewards of it, as now it is in <hi>your Self,</hi> the <hi>Loyal Lord Mayor of</hi> London, and in the <hi>Great and Loyal Lord Chancellor of</hi> England: And (if the Infinite Happineſs of Heaven can admit of Degrees) That <hi>your Lordſhip</hi> may enjoy in the World to come, a degree of Glory as much above other Men, as <hi>You</hi> do at this preſent. Which is, and ſhall be, the Hearty Prayer of,</p>
+            <closer>
+               <salute>My Lord,).</salute>
+               <signed>
+                  <hi>Your Lordſhips moſt Faithful, and Obedient Servant,</hi> Robert Wenſley.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:98042:4"/>
+            <head>A SERMON PREACH'D AT Guild-Hall Chappel, <hi>December</hi> the <hi>6th. Anno Dom.</hi> 1685.</head>
+            <epigraph>
+               <bibl>EZEKIEL, <hi>Ch.</hi> XXI. <hi>v.</hi> 25, 26, 27.</bibl>
+               <q>
+                  <p>
+                     <hi>And thou prophane, wicked Prince of</hi> Iſrael, <hi>whoſe Day is come, when Iniquity ſhall have an End.</hi>
+                  </p>
+                  <p>Thus ſaith the Lord God, Remove the Diadem, and take off the Crown; Exalt him that is low, and abaſe him that is high.</p>
+                  <p>I will over-turn, over-turn, over-turn it; and it ſhall be no more, until he come whoſe right it is; and I will give it him.</p>
+               </q>
+            </epigraph>
+            <p>OF all the Sacred Writings, none are more eaſily wreſted to ill Purpoſes, than the <hi>Propheſies</hi> of the <hi>Old Teſtament,</hi> and the <hi>Revelations</hi> of the <hi>New.</hi> Strength of Imagination, and the litteral Sound of the Words, ſupplying the place, in the Vulgar, of ſtrong Senſe,
+<pb n="2" facs="tcp:98042:5"/> ſound Reaſon, and all manner of Helps of Interpre<g ref="char:EOLhyphen"/>tation: So that they are eaſily brought to believe any thing that their Seditious Teachers deliver to them, as a Myſtery grounded on ſome obſcure Text of the <hi>Prophets,</hi> or the <hi>Apocalypſe.</hi>
+            </p>
+            <p>Amongſt all the <hi>Prophetical Writings,</hi> (if we may believe Report) none hath been more abuſed than this Text, by that <hi>Grand Traytor and Trumpe<g ref="char:EOLhyphen"/>ter of Hell, Ferguſon;</hi> who, whil'ſt he pretend<g ref="char:EOLhyphen"/>ed to be a Preacher of the <hi>Goſpel of Peace,</hi> ſound<g ref="char:EOLhyphen"/>ed an <hi>Alarum to Rebellion</hi> with theſe Words; againſt which, nothing can be a greater Argument, if rightly <hi>Explain'd and Apply'd.</hi>
+            </p>
+            <p>Wherefore, it cannot be amiſs for me to endea<g ref="char:EOLhyphen"/>vour rightly to <hi>Explain</hi> and <hi>Apply</hi> them both to Things and Perſons.</p>
+            <p>Firſt then, to <hi>Explain</hi> the Words, it will be ne<g ref="char:EOLhyphen"/>ceſſary <note place="margin">
+                  <hi>1ſt.</hi> The Ex<g ref="char:EOLhyphen"/>plication of the Words.</note> to enquire;</p>
+            <list>
+               <item>I. Who this Prince was, of which we have here ſo ſevere a Character?</item>
+               <item>II. What his Crimes were, for which he is here ſo dreadfully threatned?</item>
+            </list>
+            <p>As to the <hi>Firſt,</hi> I need but refer you to the <note place="margin">I. Who this Prince was.</note> Words of St. <hi>Hierom,</hi> who expreſly ſaith: <note n="*" place="margin">
+                  <hi>Post urbis Hieroſclymae ſubverſionem &amp; captivitatem Populi, ad Du<g ref="char:EOLhyphen"/>cem Iſraelis ſermo dirigitur quem nemini dubium eſt ſignificari Sedechiam.</hi> St. <hi>Hierom</hi> Commen<g ref="char:EOLhyphen"/>tarium in Textum.</note> 
+               <hi>After the Deſtruction of</hi> Jeruſalem, <hi>and the Captivity of the</hi> Jews, <hi>this Speech is directed to the King of</hi> Iſrael; <hi>whom no body doubts to be</hi> Zedekiah: Whoſe
+<pb n="3" facs="tcp:98042:5"/> ſad Story you may read at your Leaſure, in the <hi>24<hi rend="sup">th.</hi>
+               </hi> and <hi>25<hi rend="sup">th.</hi>
+               </hi> Chapters of the 2<hi>d. of Kings,</hi> and in the Laſt Chapter of <hi>Jeremy.</hi>
+            </p>
+            <p>The ſumm of it, in brief, is this:</p>
+            <p>
+               <hi>Nebuchadnezzar,</hi> King of <hi>Babylon,</hi> beſieged <hi>Jeru<g ref="char:EOLhyphen"/>ſalem,</hi> and took it, with <hi>Jehoiakim</hi> the King, and all his Nobles: All which, (after he had deſtroy<g ref="char:EOLhyphen"/>ed the <hi>Temple)</hi> together with all the rich Veſſels belonging to it, all the Treaſures of the King's Houſe, and the Riches of all the City, he carried away with him into <hi>Babylon,</hi> and depoſed <hi>Jehoia<g ref="char:EOLhyphen"/>kim;</hi> and made <hi>Mattaniah,</hi> his Father's Brother, King in his ſtead; and changed his Name to <hi>Ze<g ref="char:EOLhyphen"/>dekiah:</hi> Who, notwithſtanding all this, Rebelled againſt <hi>Nebuchadnezzar;</hi> and being overcome by him, had his Sons ſlain before his Eyes; and (that he might never ſee a better Object) his own Eyes were put out, and he carried in Chains to <hi>Babylon:</hi> And <hi>Jehoiakim</hi> was by <hi>Evilmerodack,</hi> the <hi>Babylo<g ref="char:EOLhyphen"/>nian</hi> King, re-placed upon the Throne of his An<g ref="char:EOLhyphen"/>ceſtors.</p>
+            <p>Thus was the Propheſie in the Text fulfilled, even to a Word: For <hi>Zedekiah</hi>'s <hi>Day</hi> of Puniſh<g ref="char:EOLhyphen"/>ment came unexpectedly upon him, and his <hi>Ini<g ref="char:EOLhyphen"/>quity</hi> had its Reward; <hi>His Diadem was removed, and his Crown was taken off: Jehoiakim, that was low, was exalted</hi> from a Priſon to his Throne; and <hi>Zedekiah, that was high, was abaſed</hi> from his Throne to a Priſon. Thus did <hi>God</hi> Almighty utterly <hi>Over-turn</hi> all <hi>Iſrael,</hi> till the Kingdom <hi>was given unto him, whoſe Right it was.</hi>
+            </p>
+            <pb n="4" facs="tcp:98042:6"/>
+            <p> As to the further Senſe of this Prophecy, the ſame St. <hi>Hierom</hi> (diverting his Speech to <hi>Zede<g ref="char:EOLhyphen"/>kiah)</hi> gives it us in theſe following Words: <note n="†" place="margin">
+                  <hi>Venit (in<g ref="char:EOLhyphen"/>quit) tibi dies quae longo tem<g ref="char:EOLhyphen"/>pore praefinita est in te; &amp; propter te Sacer<g ref="char:EOLhyphen"/>dotium &amp; Reg<g ref="char:EOLhyphen"/>num interiit Ju<g ref="char:EOLhyphen"/>daeorum. Ini<g ref="char:EOLhyphen"/>quitatem ponam tibi in perpetu<g ref="char:EOLhyphen"/>um, quoe non ſtatim tibi re<g ref="char:EOLhyphen"/>putata eſt, ſed donec veniat</hi> Chriſtus <hi>cujus est judicium &amp; tradet ei Pater Regnum &amp; Sa<g ref="char:EOLhyphen"/>cerdotium vel Eccleſiam de Gentibus Con<g ref="char:EOLhyphen"/>gregatam.</hi> Id. St. <hi>Hieronimus</hi> ibid.</note> 
+               <hi>The Day is come, which was long before determined concern<g ref="char:EOLhyphen"/>ing Thee; and for thy ſake, both the Kingdom, and the Prieſthood of the</hi> Jews, <hi>hath periſhed. I will place this Iniquity upon thy Account for ever; but not immediately to be reckoned for, but when</hi> Chriſt <hi>cometh, whoſe is the Judgment, and when the Father giveth him both the Kingdom, and the Prieſthood, or the Church called from amongſt the Gentiles.</hi>
+            </p>
+            <p>For then, indeed, it was, that both the <hi>Jewiſh Religion</hi> and <hi>Government</hi> were abſolutely <hi>Over-turn'd</hi> by the <hi>Romans,</hi> when the Apoſtles had juſt finiſhed their Work of <hi>Preaching the Goſpel to all Nations, and making them Diſciples of Chriſt:</hi> For ever ſince, the <hi>Jews</hi> have continued meer Vaga<g ref="char:EOLhyphen"/>bonds upon the Face of the Earth, <hi>And an hiſſing, and a By-word to all Nations.</hi>
+            </p>
+            <p>So that, (according to St. <hi>Hierom) Zedekiah</hi>'s Crimes had an ill Influence upon all <hi>Iſrael,</hi> for many Generations, even till their final Deſtructi<g ref="char:EOLhyphen"/>on, after our <hi>Saviour</hi>'s Crucifixion: So that, we may well conclude, that they were moſt odious to <hi>God:</hi> And therefore, it cannot be but worth our while, to proceed to the next Enquiry pro<g ref="char:EOLhyphen"/>pos'd: <hi>viz.</hi>
+            </p>
+            <p>II. What <hi>Zedekiah</hi>'s Crimes were, for which <note place="margin">II. What <hi>Zede<g ref="char:EOLhyphen"/>kiah</hi>'s Crimes were,</note> the Text ſtiles him, <hi>Thou wicked and prophane Prince of Iſrael;</hi> and for which He and all <hi>Iſ<g ref="char:EOLhyphen"/>rael</hi> were ſo dreadfully puniſh'd?</p>
+            <pb n="5" facs="tcp:98042:6"/>
+            <p> Now, if we will take the pains to read the pla<g ref="char:EOLhyphen"/>ces of Scripture <note n="*" place="margin">2 <hi>Kings</hi> c. 24. v. 17. &amp;c. 25. and <hi>Jeremiah</hi> cap. ult.</note> before-mentioned, we ſhall find his Crimes to be theſe three, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>Ingratitude, Treachery,</hi> and <hi>Rebellion.</hi> 
+               <note place="margin">Ingratitude, Perfidiouſneſs, Rebellion.</note>
+            </p>
+            <p>
+               <hi>Firſt, Ingratitude</hi> againſt the King of <hi>Babylon.</hi>
+            </p>
+            <p>
+               <hi>Nebuchadnezzar</hi> had Raiſed him from a Subject, to be King over <hi>Iſrael,</hi> inſtead of <hi>Jehoiakim, whoſe Right it was;</hi> and in token of his Favour, had given him a new Name: But <hi>He</hi> ungratefully en<g ref="char:EOLhyphen"/>deavours (as far as he could) to Unmake his Ma<g ref="char:EOLhyphen"/>ker.</p>
+            <p>Whereas, Common Gratitude (if he had retain'd any Senſe of it) would have bound him faſt to the Service of ſuch a Prince, who had conferr'd ſo great Honours and Obligations upon him, that e<g ref="char:EOLhyphen"/>ven all that he could do for his Service, was little enough to expreſs his Grateful Acknowledgments: But (inſtead of this) ſuch was his ungratefulneſs, that no Tyes (though never ſo Sacred) could hold him to his Duty; but even contrary to his Faith and Promiſe, he Treacherouſly endeavours to Ruine <hi>Nebuchadnezzar,</hi> with thoſe Favours he had conferr'd upon him.</p>
+            <p>And this brings me to Diſcourſe his ſecond Crime, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> His <hi>Perfidiouſneſs</hi> or <hi>Treachery.</hi> 
+               <note place="margin">
+                  <hi>2ly. Zedeki<g ref="char:EOLhyphen"/>ah</hi>'s Perfidi<g ref="char:EOLhyphen"/>ouſneſs.</note>
+            </p>
+            <p>In all probability, the <hi>King</hi> of <hi>Babylon</hi> bound <hi>Ze<g ref="char:EOLhyphen"/>dekiah,</hi> by all manner of Promiſes and Oaths, to be faithful to him; for common prudence could perſwade no leſs: and we have this further War<g ref="char:EOLhyphen"/>rant for it, That one of the beſt Commentators
+<pb n="6" facs="tcp:98042:7"/> (as to the ſenſe of the Antients) tells us directly, That the <note n="†" place="margin">
+                  <hi>Loquitur pro<g ref="char:EOLhyphen"/>pheta</hi> Sedekiae <hi>faedifrago.</hi> Cornel. a La<g ref="char:EOLhyphen"/>pid. in tex<g ref="char:EOLhyphen"/>tum.</note> 
+               <hi>Prophet</hi> here <hi>ſpeaks to Zedekiah, the Cove<g ref="char:EOLhyphen"/>nant-breaker.</hi>
+            </p>
+            <p>What then could be a greater breach of Faith, than for him to abuſe ſo great and ſo honourable a Truſt, to quite contrary purpoſes? What could be greater Treaſon, than for him who had received the Regal Authority over the <hi>Jews,</hi> on purpoſe to keep them in Subjection to the <hi>King</hi> of <hi>Babylon,</hi> to be the firſt that Oppoſed it; and to be the Ring<g ref="char:EOLhyphen"/>leader of <hi>Rebellion</hi> againſt him?</p>
+            <p>This leads me to take Notice of his third and laſt Crime, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>Thirdly,</hi> His <hi>Rebellion.</hi> 
+               <note place="margin">
+                  <hi>3ly. Zedekiah</hi>'s Rebellion.</note>
+            </p>
+            <p>Had not <hi>Zedekiah</hi> been the Chief Governour un<g ref="char:EOLhyphen"/>der <hi>Nebuchadnezzar,</hi> he could not have been the Chief Rebell againſt him: And therefore, this did fully compleat both his Ingratitude and Treaſon; and above all other, his Sins is particularly laid to his Charge (2 <hi>Kings</hi> c. 24. <hi>v. ult.)</hi> even by God himſelf.</p>
+            <p>Having now <hi>Explain'd</hi> the Words, leſt it ſhould be asked, What is all this to us? I ſhall proceed to the next part of my propoſed Deſign, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> Rightly to Apply theſe Words thus <note place="margin">The 2<hi>d.</hi> part of this Diſ<g ref="char:EOLhyphen"/>courſe; the Application.</note> 
+               <hi>Explained,</hi> both to Perſons and Things.</p>
+            <p>Firſt then, as to Perſons: <note place="margin">1. To Per<g ref="char:EOLhyphen"/>ſons.</note>
+            </p>
+            <p>I freely Confeſs, That there is nothing leſs be<g ref="char:EOLhyphen"/>comes the Pulpit, than Perſonal Reflections, where they are not neceſſary, or at leaſt highly conve<g ref="char:EOLhyphen"/>nient. But ſince common <hi>Fame</hi> aſſures us, That
+<pb n="7" facs="tcp:98042:7"/> this Text was <hi>Applyed</hi> to Seditious Purpoſes a<g ref="char:EOLhyphen"/>gainſt our preſent Sovereign <hi>(Whom God long Pre<g ref="char:EOLhyphen"/>ſerve!)</hi> I cannot but think it a neceſſary Duty to wipe off thoſe Foul and Impudent Aſperſions from our <hi>Royal Maſter,</hi> and to let you ſee where they naturally fall.</p>
+            <p>With what Face could any one (but Impudence it ſelf) Apply <hi>Zedekiah</hi>'s Ingratitude, Perfidiouſ<g ref="char:EOLhyphen"/>neſs, and Rebellion, againſt ſuch a Prince, whom even the worſt of His Enemies, cannot but own to be the Beſt, and moſt Grateful Maſter; the moſt Faithful of all Friends, and (when He was in that capacity) the moſt Loyal of all Sub<g ref="char:EOLhyphen"/>jects?</p>
+            <p>Do not We of the <hi>Church of England</hi> owe the Preſervation of our Religion to His Royal Faith and Gratitude?</p>
+            <p>Hath He not in the moſt Grateful and Publick manner <hi>Acknowledged</hi> our Services (though we did but our Duty) in Endeavouring to Maintain <hi>The Succeſſion in the Right Line?</hi>
+            </p>
+            <p>Hath He not Paſs'd His <hi>Royal Faith</hi> for the Pre<g ref="char:EOLhyphen"/>ſervation of our <hi>Religion and Government by Law Eſtabliſhed,</hi> in His repeated Promiſes, and His Co<g ref="char:EOLhyphen"/>ronation-Oath? Oh! May His Royal Word and Oath be as <hi>Sacred</hi> and <hi>Inviolable,</hi> as all good Sub<g ref="char:EOLhyphen"/>jects do Eſteem His <hi>Perſon</hi> and <hi>Authority!</hi> And as He derives His Power from none but GOD, ſo may He Govern after God's example; That, as <hi>By theſe two immutable Things,</hi> His Word and Oath, <hi>It is impoſſible for God,</hi> it may be no leſs impoſſible for the King, <hi>to Lye!</hi> That ſo His NAME may be Re<g ref="char:EOLhyphen"/>corded to all Ages, by thoſe Glorious Titles of
+<pb n="8" facs="tcp:98042:8"/> 
+               <hi>JAMES the Grateful,</hi> and <hi>JAMES the Juſt.</hi>
+            </p>
+            <p>In the mean while, let Us follow His Example, in being as Faithful Subjects to Him, as He was to His <hi>Royal Brother,</hi> who hath particularly Recom<g ref="char:EOLhyphen"/>mended Him as a Pattern for our Imitation: For in his laſt <note n="*" place="margin">
+                  <hi>Pag.</hi> 166. <hi>Part</hi> the firſt.</note> 
+               <hi>Declaration,</hi> peruſed by himſelf, and Ordered to be Publiſhed, He who beſt knew Him, gives us this Recommendation of Him; That <hi>He could not forbear to Recommend to all his other Sub<g ref="char:EOLhyphen"/>jects, the profound Reſpect, and the intire Reſignation and Obedience, which his</hi> Royal Highneſs <hi>continues to Practiſe to his Perſon and Government.</hi>
+            </p>
+            <p>Let this then Suffice to ſtop the Mouths of all our Railing <hi>Rabſhake</hi>'s againſt <hi>God</hi>'s <hi>Anointed.</hi>
+            </p>
+            <p>But ſince they have alwayes been too ready to make Perſonal Reflections, and Falſe Applications of <hi>Scripture,</hi> it is but Juſtice that we ſhould Re<g ref="char:EOLhyphen"/>tort upon them, ſuch as are apparently true; eſpe<g ref="char:EOLhyphen"/>cially, where, without the leaſt Stretch or Force, they mutually Apply themſelves; as (certainly, if ever words did) theſe of the Text moſt directly Apply themſelves againſt the Authors of the late Rebellion amongſt Us.</p>
+            <p>For, What need I mention the late Earls of <note place="margin">All the Late Leaders of <hi>Re<g ref="char:EOLhyphen"/>bellion,</hi> Guilty of every one of <hi>Zedekiah</hi>'s Crimes.</note> 
+               <hi>Shaftsbury, Argyle,</hi> and ſuch like? when their Horrid <hi>Ingratitude</hi> to his late Majeſty, as well as to this Preſent, againſt ſo many and ſo great Ob<g ref="char:EOLhyphen"/>ligations of reiterated Pardons and Honors heap'd upon them, and their no leſs <hi>Perfidiouſneſs</hi> againſt their repeated Promiſes and Oaths, as well as their bare-fac'd <hi>Rebellion,</hi> are ſo viſible to all Perſons, that are not fully reſolved they will not ſee?</p>
+            <pb n="9" facs="tcp:98042:8"/>
+            <p> I ſhall therefore confine this part of my Diſ<g ref="char:EOLhyphen"/>courſe <note place="margin">But moſt e<g ref="char:EOLhyphen"/>ſpecially the late Duke of <hi>Monmouth.</hi>
+               </note> to that Unfortunately-Deluded Prince, <hi>The late Duke of Monmouth.</hi>
+            </p>
+            <p>And ſurely never was there any Perſon, in which <note place="margin">
+                  <hi>Monmouth</hi>'s Ingratitude far greater than <hi>Zedeki<g ref="char:EOLhyphen"/>ah</hi>'s.</note> all <hi>Zedekiah</hi>'s Crimes did ſo Manifeſtly appear, as in him.</p>
+            <p>And though it is not in my Nature to Trample upon a Dead Lyon, or to Triumph over thoſe that are Fallen; and though I would no more revive his Crimes, than I would his Perſon, yet Neceſſity forces me to it, that I may Endeavour to give ſome Satisfaction to thoſe that mean well, and yet may be Deceived by the Impudent Clamours of his Par<g ref="char:EOLhyphen"/>ty, to think too well of him.</p>
+            <p>1. Then, as to his <hi>Ingratitude.</hi>
+            </p>
+            <p>Did not his <hi>Royal Father</hi> Raiſe him from the Infamy derived from his Mother, to the higheſt Honours, ſcarcely denying him any thing that was Great, except only His Crown, and the Juſt Rights of his <hi>Royal Succeſſor?</hi>
+            </p>
+            <p>And were not all theſe Favours conferr'd upon him, by the Mediation of his <hi>Royal <g ref="char:V">Ʋ</g>ncle,</hi> our pre<g ref="char:EOLhyphen"/>ſent Sovereign?</p>
+            <p>Hear what His late Majeſty ſaith in His <hi>Declara<g ref="char:EOLhyphen"/>tion</hi> before-mentioned, <note n="†" place="margin">
+                  <hi>Pag.</hi> 149. <hi>line</hi> 19. ibid.</note> where He doth <hi>Freely Te<g ref="char:EOLhyphen"/>ſtify for his Deareſt Brother, that the Duke of</hi> Mon<g ref="char:EOLhyphen"/>mouth <hi>(till he made himſelf uncapable of his Friend<g ref="char:EOLhyphen"/>ſhip) never had a more entire or faſt-Friend about His Majeſty; and there was ſcarce ever any Honour or Be<g ref="char:EOLhyphen"/>nefit confer'd upon him, but it was obtain'd by his Royal Highneſs his Interceſſion.</hi>
+            </p>
+            <p>And yet, How well he requited Them, by be<g ref="char:EOLhyphen"/>ing Privy to at leaſt, if not Conſenting to ſuch
+<pb n="10" facs="tcp:98042:9"/> Conſultations, as directly tended to the utter De<g ref="char:EOLhyphen"/>ſtruction of Them both, is too ſadly known a<g ref="char:EOLhyphen"/>mongſt us! Not only, not regarding the Life of his beſt <hi>Benefactor,</hi> but (Oh moſt horrid <hi>Ingrati<g ref="char:EOLhyphen"/>tude!)</hi> taking no care (to ſay no worſe) of the Life of his moſt Affectionate and Indulgent <hi>Fa<g ref="char:EOLhyphen"/>ther!</hi>
+            </p>
+            <p>A <hi>Father,</hi> that (by the Mediation of his <hi>Royal <g ref="char:V">Ʋ</g>ncle)</hi> had ſuch an Exceſs of Kindneſs for him, as not only to Pardon him, ſo Wicked and ſo Un<g ref="char:EOLhyphen"/>natural a <hi>Conſpiracy;</hi> but again to Receive him into His Boſome; and to ſeek, by His former Methods of Kindneſs (though Alas! all in vain!) to Re<g ref="char:EOLhyphen"/>claim him from the <hi>Society of Helliſh Traitors,</hi> that Conſpired againſt His Life and Government?</p>
+            <p>So that all Things conſidered, <hi>Zedekiah</hi> was a Grateful Perſon in compariſon of him; and our Wiſe and Loyal <hi>Senate</hi> had too much reaſon to ſtile him, <note n="*" place="margin">In their Ad<g ref="char:EOLhyphen"/>dreſs to His Majeſty.</note> 
+               <hi>That moſt ungrateful Rebel, James late Duke of Monmouth.</hi>
+            </p>
+            <p>Nor <hi>(2ly.)</hi> Was his <hi>Perfidiouſneſs</hi> leſs than his <hi>Ingratitude.</hi> 
+               <note place="margin">
+                  <hi>2ly.</hi> His Per<g ref="char:EOLhyphen"/>fidiouſneſs no leſs than his Ingratitude.</note>
+            </p>
+            <p>For (not to mention his frequent breaches of his Matrimonial Vow, made to his moſt vertuous Dutcheſs; a Lady that had oblig'd him by all means poſſible: and of his repeated Promiſes to his greateſt Patron his <hi>Royal <g ref="char:V">Ʋ</g>ncle)</hi> How often, upon the account of his ſeveral Honours and Of<g ref="char:EOLhyphen"/>fices, had he taken the <hi>Oath of Allegiance,</hi> and the <hi>Holy Sacrament,</hi> to bind him to that, to which Nature it ſelf had moſt ſtrictly ty'd him, <hi>(i. e.)</hi> His Duty to his moſt <hi>Loving Father,</hi> &amp; his moſt <hi>Gra<g ref="char:EOLhyphen"/>cious King?</hi> How did he promiſe his <hi>Royal Father;</hi>
+               <pb n="11" facs="tcp:98042:9"/> Nay, ſwear to Him under his Hand, That <note n="*" place="margin">His firſt letter amongſt the Papers in the late King's Declaration. <hi>pag.</hi> 138.</note> 
+               <hi>For the time to come, the whole ſtudy of his Life ſhould be, to ſhew how truly Penitent he was:</hi> And yet <hi>(Oh <g ref="char:V">Ʋ</g>nnatural Treachery!)</hi> all theſe Bonds were too weak to hold him from Joyning with ſuch <hi>Bloody Traitors,</hi> as ſought the very Life of the King his Father.</p>
+            <p>And this leads me to Diſcourſe his Laſt Crime, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>3ly.</hi> His <hi>Rebellion.</hi> 
+               <note place="margin">His <hi>Rebellion</hi> the completi<g ref="char:EOLhyphen"/>on of all his Crimes.</note>
+            </p>
+            <p>This is the Crime that made all the reſt Appear in their proper <hi>(i. e.)</hi> their moſt odious Shapes: So that it is impoſſible for any Man (that is not abſolute Impudence) to Palliate or Conceal them.</p>
+            <p>For <hi>He</hi> himſelf aſſures his Uncle, then <hi>Duke</hi> of <hi>York,</hi> That if He would grant him the Kindneſs to bring him to the King his Father, <note n="*" place="margin">In his firſt Letter, <hi>ibid. p.</hi> 137. in fine, and <hi>p.</hi> 138.</note> 
+               <hi>If ever he ſhould do any thing againſt him, he muſt be thought the moſt ungrateful Man living.</hi>
+            </p>
+            <p>And he might as well have added the moſt Per<g ref="char:EOLhyphen"/>fidious Man on Earth: <note n="†" place="margin">
+                  <hi>Ibid.</hi> p. 140.</note> For in his ſecond Letter to his Father, he tells him; <hi>Neither do I imagine to receive your Pardon, any otherwiſe, than by the Interceſſion of the Duke, whom I acknowledge to have offended; and therefore, beg Your Majeſty would di<g ref="char:EOLhyphen"/>rect how I am to apply my ſelf to Him, and I ſhall do it, not as an outward form, but with all the ſince<g ref="char:EOLhyphen"/>rity in the world.</hi>
+            </p>
+            <p>Now, Was not this Favour granted him? Did not his then <hi>Royal Highneſs</hi> introduce him to his Father, and Intercede for His Favour to him?</p>
+            <p>And yet, Did he not (as ſoon as poſſibly he could) Publiſh the moſt Falſe, Treaſonable, and Sediti<g ref="char:EOLhyphen"/>ous
+<pb n="12" facs="tcp:98042:10"/> 
+               <hi>Declaration</hi> againſt Him? and, Did he not raiſe the moſt unnatural War, and endeavour there<g ref="char:EOLhyphen"/>by to Deprive his Lawful <hi>Sovereign</hi> of His Crown, which <hi>He</hi> himſelf owned to be His undoubted Right; and to Depoſe Him from His Throne, and to place himſelf upon it, though he himſelf confeſſed (more than once) That he had no manner of juſt Right or Title to it?</p>
+            <p>So that <hi>Zedekiah</hi>'s Rebellion compar'd with his, would appear but a juſt Defence of himſelf, and his Country.</p>
+            <p>And as his Faults did exceed his, ſo his Puniſh<g ref="char:EOLhyphen"/>ment <note place="margin">As his Crimes were greater than <hi>Zedeki<g ref="char:EOLhyphen"/>ah</hi>'s, ſo his Pu<g ref="char:EOLhyphen"/>niſhment was not leſs.</note> came not ſhort of what was here threatned in the Text, but fulfilled it, even to a Tittle.</p>
+            <p>For is not his <hi>Day come, when his iniquity had an end?</hi> Is not his <hi>Diadem remov'd,</hi> which he vainly fancied to himſelf? is not his <hi>Crown taken off,</hi> which his ambitious Thoughts had placed upon his own Head; nay, and his Head too? is he any longer <hi>the ſame</hi> he was? is not our Dread <hi>Sovereign,</hi> who was <hi>ſo low, Exalted,</hi> from his Baniſhment, to the Throne of His Anceſtors? is not <hi>He,</hi> who was ſo <hi>high</hi> in his own, and his followers Conceit, <hi>abaſed,</hi> and laid in the Duſt? In a word, Hath not God <hi>utter<g ref="char:EOLhyphen"/>ly over-turn'd Him,</hi> and all his Rebellious Accom<g ref="char:EOLhyphen"/>plices, ſo that <hi>they are no more?</hi> and, Hath he not <hi>given to him the Diadem and the Crown, whoſe</hi> un<g ref="char:EOLhyphen"/>queſtionable <hi>Right it is?</hi>
+            </p>
+            <p>May it be Eſtabliſhed upon Him, and His Law<g ref="char:EOLhyphen"/>ful Heirs and Succeſſors, ſo long <hi>As the Sun and Moon endureth:</hi> To which Eſtabliſhment, let every one of us Contribute his part, by doing his Duty in his Station, to prevent all Rebellion for the Fu<g ref="char:EOLhyphen"/>ture.
+<pb n="13" facs="tcp:98042:10"/> To which end, that I may not be wanting in Mine, I ſhall proceed to what remains, <hi>viz.</hi>
+            </p>
+            <p>
+               <hi>Secondly,</hi> To Apply this Text to ſuch Things, <note place="margin">The 2<hi>d.</hi> Ap<g ref="char:EOLhyphen"/>plication to Things; <hi>viz.</hi> againſt <hi>Rebelli<g ref="char:EOLhyphen"/>on</hi> chiefly.</note> againſt which it is directly and naturally Applicable.</p>
+            <p>And ſurely, it can be Applyed againſt nothing ſo directly, as againſt <hi>Zedekiah</hi>'s Crimes of</p>
+            <p>
+               <hi>Ingratitude, Treachery,</hi> and <hi>Rebellion.</hi>
+            </p>
+            <p>As for the Two former, they being mainly com<g ref="char:EOLhyphen"/>prehended and compleated in the Latter; I ſhall reſtrain my Diſcourſe againſt that Crime that con<g ref="char:EOLhyphen"/>tains all the reſt, <hi>(i. e) Rebellion.</hi>
+            </p>
+            <p>For, no Man can be a Rebel, but he muſt be <note place="margin">Every Rebel muſt be,</note> 
+               <hi>
+                  <g ref="char:V">Ʋ</g>ngrateful,</hi> as well as <hi>Perfidious.</hi>
+            </p>
+            <p n="1">(1.) He muſt be <hi>
+                  <g ref="char:V">Ʋ</g>ngrateful.</hi> 
+               <note place="margin">
+                  <hi>1st.</hi> Ungrate<g ref="char:EOLhyphen"/>ful.</note>
+            </p>
+            <p>For, the Preſervation of his Life or Fortune, and of what ſoever can be dear to him, he owes wholly to his Prince; who gives Life to the Laws, by which they are preſerved by his vigorous Exe<g ref="char:EOLhyphen"/>cution of them; without which, all Law is but a dead Letter, and ſignifies nothing at all to the Safety or Welfare of Human Society.</p>
+            <p n="2">(2.) He muſt be <hi>Perfidious</hi> alſo. <note place="margin">
+                  <hi>2dly.</hi> Perfidi<g ref="char:EOLhyphen"/>ous.</note>
+            </p>
+            <p>For no Man can Rebel, but he breaks thoſe Ties of Nature, as well as his Promiſes and Oaths (which, by our Laws, every Subject is ſuppoſed and requi<g ref="char:EOLhyphen"/>red to take) by which he is bound to maintain his Prince's Life and Government.</p>
+            <p>Now, againſt all <hi>Rebellion,</hi> this Text doth apply it ſelf, as the higheſt and ſtrongeſt Argument that
+<pb n="14" facs="tcp:98042:11"/> can be, by anſwering all the Pretences and Ex<g ref="char:EOLhyphen"/>cuſes, that can poſſibly be made for it: For, What <note place="margin">No juſt or ſufficient Ex<g ref="char:EOLhyphen"/>cuſe for <hi>Rebel<g ref="char:EOLhyphen"/>lion.</hi>
+               </note> greater Excuſes can be imagined, than thoſe which were the real Cauſes of <hi>Zedekiah's Rebellion?</hi> May the Invaſion of our Rights, Liberties, and Lives, or the Violation of the True <hi>Religion,</hi> be ſuffici<g ref="char:EOLhyphen"/>ent Excuſes for it? All theſe <hi>Zedekiah</hi> had in the higheſt manner; and yet was blamed and pu<g ref="char:EOLhyphen"/>niſh'd in the higheſt manner for his Rebellion.</p>
+            <p>His People's Properties, Lives, Liberties, and Re<g ref="char:EOLhyphen"/>ligion, were utterly invaded and violated.</p>
+            <p>
+               <hi>Firſt,</hi> As to their <hi>Properties, Lives,</hi> and <hi>Liber<g ref="char:EOLhyphen"/>ties:</hi> 
+               <note place="margin">
+                  <hi>1st.</hi> Not Pro<g ref="char:EOLhyphen"/>perty, Life, and Liberty.</note>
+            </p>
+            <p>Was not the King of <hi>Babylon</hi> a meer Invader of them all? What Right had he (but only what his Sword had given him) to the Country of <hi>Ju<g ref="char:EOLhyphen"/>dea?</hi> And yet, did he not by meer Force, (with<g ref="char:EOLhyphen"/>out ſo much as a Pretence of Right or Title to it) beſiege, take, and deſtroy its Chief <note n="*" place="margin">Vid. 2 <hi>King. c.</hi> 24. <hi>from v.</hi> 10. <hi>to v.</hi> 17.</note> City? Did he not ſeize as his own, and carry away with him not only all things of Value in it, but all Perſons alſo of any uſe to it, killing many of them, and making the reſt his Slaves in <hi>Babylon?</hi>
+            </p>
+            <p>Was it not to preſerve his People's Lives from Murther, and to regain their Liberties and Pro<g ref="char:EOLhyphen"/>perties from the higheſt Injuſtice, and the great<g ref="char:EOLhyphen"/>eſt Slavery and Tyranny, that the <hi>King of Iſrael</hi> rebelled againſt <hi>Nebuchadnezzar?</hi> And yet, all this could not excuſe his Rebellion.</p>
+            <p>But though <hi>Life, Liberty,</hi> and <hi>Property,</hi> which relate only to this World, will not excuſe Rebel<g ref="char:EOLhyphen"/>lion againſt the worſt of Tyrants; yet ſurely,
+<pb n="15" facs="tcp:98042:11"/> 
+               <hi>Religion,</hi> that muſt bring us to Eternal Life, is ſo ſacred a thing, that the leaſt Violation of it will be a full Excuſe: But this will appear as vain an Excuſe as the former, if we conſider the Inſtance in the Text. For,</p>
+            <p>
+               <hi>Secondly,</hi> As to <hi>Religion,</hi> even that which <hi>God</hi> 
+               <note place="margin">
+                  <hi>2dly,</hi> Not Re<g ref="char:EOLhyphen"/>ligion.</note> himſelf had Inſtituted amongſt the <hi>Jews;</hi> it was no leſs violated by the King of <hi>Babylon,</hi> than their <hi>Liberties</hi> and <hi>Properties.</hi>
+            </p>
+            <p>For, Was not <hi>Nebuchadnezzar</hi> the higheſt Idola<g ref="char:EOLhyphen"/>ter, and the greateſt Promoter of Idolatry in the whole World?</p>
+            <p>Was it not He, that caſt <hi>Shadrach, Meſhach,</hi> and <note place="margin">Vid. <hi>The</hi> 3<hi>d. Chap. of</hi> Da<g ref="char:EOLhyphen"/>niel,</note> 
+               <hi>Abednego</hi> into the Fiery Furnace, (heated ſeven times hotter than it uſed to be) only becauſe they worſhipped the True <hi>God,</hi> and would not <hi>Fall down and worſhip the Golden Image that he had ſet up.</hi>
+            </p>
+            <p>Was it not He, that not only prophan'd, but deſtroy'd the <hi>Temple of the Lord,</hi> the Glory of the <hi>Jewiſh Religion?</hi>
+            </p>
+            <p>Was it not He, that not only polluted their moſt Sacred Altar, (where was the <hi>Secanah,</hi> or Glory of <hi>God)</hi> but pull'd it down, and utterly defac'd it? Was it not He, that had ſeiz'd all the Sacred Veſſels, and Ineſtimable Treaſures of the <hi>Houſe of the Lord,</hi> and carried them away to be in the higheſt manner prophan'd in <hi>Babylon?</hi>
+            </p>
+            <p>And was <hi>Zedekiah</hi>'s <hi>Rebellion</hi> any thing more, than an Endeavour to regain his People's juſt Rights, and to Re-eſtabliſh the True Religion a<g ref="char:EOLhyphen"/>mongſt them? And would not all this excuſe him?</p>
+            <pb n="16" facs="tcp:98042:12"/>
+            <p> For our full Satisfaction in this Particular, let us read 2 <hi>Kings ch.</hi> 24. <hi>v.</hi> 20. and we ſhall there find it expreſly ſaid, That it was for this cauſe that God had <hi>Caſt out him and all Iſrael out of his Preſence, (i. e.)</hi> out of his Protection. <hi>For</hi> (ſaith the Text) <hi>through the Anger of the Lord, it came to paſs in Jeruſalem and Judah (until he had caſt them out from his Preſence) that Zedekiah re<g ref="char:EOLhyphen"/>belled againſt the King of Babylon.</hi>
+            </p>
+            <p>Since then nothing can excuſe Rebellion, Give me leave (as a further Application of theſe Words) to preſs theſe Two Conſiderations:</p>
+            <list>
+               <item>1. <hi>The Greatneſs of the Sin</hi> of <hi>Rebellion.</hi> 
+                  <note place="margin">Two Conſi<g ref="char:EOLhyphen"/>derations a<g ref="char:EOLhyphen"/>gainſt <hi>Rebelli<g ref="char:EOLhyphen"/>on.</hi>
+                  </note>
+               </item>
+               <item>2. <hi>The remarkable Puniſhments</hi> of <hi>Rebellion.</hi> 
+               </item>
+            </list>
+            <p>The Firſt will be apparent in theſe Three Things:</p>
+            <list>
+               <item>1. <hi>Rebellion is a Complication of all Sins.</hi>
+               </item>
+               <item>2. <hi>A Sin for which no Amends can be made.</hi>
+               </item>
+               <item>3. <hi>A Sin, which ſeldom is, or can be Repented of.</hi>
+               </item>
+            </list>
+            <p>Firſt, <hi>It is a Complication of all Sins.</hi> 
+               <note place="margin">
+                  <hi>1st. Rebellion</hi> is a Complica<g ref="char:EOLhyphen"/>tion of all Sins.</note>
+            </p>
+            <p>It is not any ſingle Act of Prophaneneſs or Per<g ref="char:EOLhyphen"/>jury; but Thouſands of Perjuries joyn'd in one.</p>
+            <p>It is not any particular Act of Injuſtice or Mur<g ref="char:EOLhyphen"/>der; but all manner of Rapine, Plunder, and De<g ref="char:EOLhyphen"/>ſolation; all ſorts of Rapes and Adulteries; innu<g ref="char:EOLhyphen"/>merable Murders of Innocent Perſons; and Vio<g ref="char:EOLhyphen"/>lations of all things Sacred, are the neceſſary Con<g ref="char:EOLhyphen"/>ſequences of it.</p>
+            <p>It too often makes Children to ſheath their Swords in the Bowels of their Parents; and Sub<g ref="char:EOLhyphen"/>jects
+<pb n="17" facs="tcp:98042:12" rendition="simple:additions"/> to deſtroy the Lives of their Soveraigns, which they ought to defend, though with the Loſs of their own.</p>
+            <p>How often doth it bring in a Foreign Enemy, to enſlave a Nation? Have not we too dearly ex<g ref="char:EOLhyphen"/>perienced this in <hi>England?</hi> Look into our Hiſto<g ref="char:EOLhyphen"/>ries, and ye may find, that we could never have been Conquered either by the <hi>Danes, Saxons,</hi> or <hi>Normans,</hi> nay, not by the <hi>Romans</hi> themſelves, had it not been for our Inteſtine Wars and Rebellions.</p>
+            <p>In a word, There is no Crime ſo black and hor<g ref="char:EOLhyphen"/>rid, (at which the Conſcience of any thing, but the Devil himſelf, would ſtartle, and be amaz'd) but that Rebellion too readily draws us into it. Nay,</p>
+            <p>Secondly, <hi>It is ſuch a Sin, as no Amends can be</hi> 
+               <note place="margin">
+                  <hi>2dly.</hi> It is a Sin, that no Amends can be made for.</note> 
+               <hi>made for.</hi>
+            </p>
+            <p>How can any one make Amends for member<g ref="char:EOLhyphen"/>leſs Rapines, Plunderings, and Deſolations of whole Towns and Countries? Unleſs we could ſuppoſe him poſſeſs'd with all the Riches of the <hi>Indies.</hi>
+            </p>
+            <p>But if we could ſuppoſe all this; yet, How can he make Amends for the Lives of ſo many Thou<g ref="char:EOLhyphen"/>ſands, that are killed in Rebellion?</p>
+            <p>Can he raiſe them from the Dead, and reſtore them ſafe and ſound to their Friends and Relati<g ref="char:EOLhyphen"/>ons? Could we ſuppoſe this; It is utterly impoſ<g ref="char:EOLhyphen"/>ſible, that he ſhould make any Amends for any one Soul, which is eternally loſt by it.</p>
+            <p>For ſince <hi>Sedition</hi> is reckon'd up by St. <hi>Paul, (Gal.</hi> 5. <hi>v.</hi> 20.) in that black Catalogue of Sins, that ſhall ſhut us out <hi>of the Kingdom of Heaven;</hi> What can we think ſhall become of all thoſe that die
+<pb n="18" facs="tcp:98042:13"/> in the very Act of <hi>Rebellion?</hi> Now ſince <hi>all the Angels of Heaven</hi> can never ſatisfie for one Soul, but muſt <hi>let that alone for ever;</hi> How can any Mortal Man make Amends for Thouſands?</p>
+            <p>If then that undoubted Axiom in Divinity be true; <note n="†" place="margin">Non tolli<g ref="char:EOLhyphen"/>tur peccatum niſi reſtituatur ablatum.</note> 
+               <hi>That a Sin can never be forgiven, unleſs Amends be made for the Injury;</hi> What Hopes can we have for ſuch as die in this Sin, (eſpecially, ſuch as are the Chief Authors of <hi>Rebellion)</hi> for which they know before-hand, that no Satisfaction can be made?</p>
+            <p>Moſt eſpecially, if we conſider,</p>
+            <p>Thirdly, <hi>That</hi> Rebellion <hi>is ſuch a Sin, as can</hi> 
+               <note place="margin">
+                  <hi>3dly.</hi> Rebel<g ref="char:EOLhyphen"/>lion ſeldom is, or can be Re<g ref="char:EOLhyphen"/>pented of.</note> 
+               <hi>ſeldom or never be truly Repented of.</hi>
+            </p>
+            <p>The Prophet tells us, That <note n="*" place="margin">1 <hi>Sam.</hi> 15. <hi>v.</hi> 23.</note> 
+               <hi>Rebellion is as the Sin of Witchcraft:</hi> And indeed, in nothing are they ſo alike as in this, That they are ſeldom or never Repented of.</p>
+            <p>For as <hi>God</hi> Almighty may juſtly be ſuppoſed to harden the Hearts of ſuch profligate Wretches, as ſhall dare to give their Souls to the Devil, ſo that they cannot Repent, and defraud him of his Bargain: So we have great reaſon to believe, that he that ſhall dare to venture upon <hi>Rebellion,</hi> (which he knows to contain all other Sin,s (tho' never ſo horrid) or at leaſt to lead him into them, and which he cannot but know, that no Amends can be made for) may juſtly be depriv'd of <hi>God</hi>'s Grace; ſo that (if we could ſuppoſe him to be able) yet he ſhall never be willing to make any Amends for it, or elſe ſhall be depriv'd of Time and Opportunity to do it.</p>
+            <pb n="19" facs="tcp:98042:13"/>
+            <p> And indeed, ſuch ſad Examples hath this Age afforded us of Impenitent Rebels, as are too ap<g ref="char:EOLhyphen"/>parent Arguments, to prove this to be a moſt un<g ref="char:EOLhyphen"/>deniable, though a moſt ſad Truth: For, notwith<g ref="char:EOLhyphen"/>ſtanding thoſe ſtrange Miracles of Providence in His Majeſty's Reſtauration, and thoſe no leſs ſtrange Miracles of Mercy towards the Rebels themſelves, (which, one would have thought, ſhould have forc'd any thing but the Devil himſelf to Repen<g ref="char:EOLhyphen"/>tance) yet, How few of them did ever ſhew any real Remorſe for their former <hi>Rebellion!</hi> Nay, How many of them have ſtill perſiſted in it, till <hi>They have brought upon themſelves ſwift Deſtructi<g ref="char:EOLhyphen"/>on!</hi>
+            </p>
+            <p>And this now brings me to diſcourſe what I next propos'd: <hi>viz.</hi>
+            </p>
+            <p>Secondly, <hi>The Remarkable Puniſhments of</hi> Re<g ref="char:EOLhyphen"/>bellion, <note place="margin">
+                  <hi>2dly.</hi> The remarkable Puniſhments of Rebellion in this Life.</note> 
+               <hi>even in this Life.</hi>
+            </p>
+            <p>Theſe are ſo viſible both in the Sacred Hiſtory, and in the Hiſtories of our own Nation, that he muſt be a Stranger to both, that hath not taken Notice of them.</p>
+            <p>As to the Sacred Writings, I need inſtance in <note place="margin">The Exam<g ref="char:EOLhyphen"/>ples in Sacred Hiſtory.</note> no more, than thoſe remarkable Judgments upon <hi>Corah, and his Company,</hi> Numb. <hi>c.</hi> 16. and upon <hi>Abſalom,</hi> and his Confederates, 2 <hi>Sam.</hi> c. 18.</p>
+            <p>
+               <hi>Korah, Dathan,</hi> and <hi>Abiram,</hi> with ſeveral <hi>of the Princes of Iſrael,</hi> conſpire together againſt <hi>Moſes</hi> and <hi>Aaron:</hi> For which Schiſm and Sedition, (leſt they ſhould go unpuniſh'd) <hi>God created a new thing</hi> 
+               <note place="margin">
+                  <hi>Numb. c.</hi> 16. <hi>v</hi> 30.</note> 
+               <hi>upon Earth,</hi> (as though all known Puniſhments
+<pb n="20" facs="tcp:98042:14"/> had been too ſmall for ſuch Rebels) <hi>and made the Earth open her Mouth, and ſwallow them up, ſo that they went down alive into the Pit</hi> of Hell.</p>
+            <p>Neither did the People eſcape, who were drawn in to joyn with them: For, though <hi>Aaron</hi> made all the haſte that could be, <hi>To make an Atonement</hi> 
+               <note place="margin">Ibid. <hi>Verſe the</hi> 47, 48, <hi>&amp;</hi> 49.</note> 
+               <hi>for their Sin,</hi> and (as the Text ſaith) <hi>the Plague was but begun amongſt the People;</hi> yet, <hi>They that died in that Plague, were Fourteen Thouſand and Se<g ref="char:EOLhyphen"/>ven Hundred.</hi>
+            </p>
+            <p>As for <hi>Abſalom,</hi> who, led by the Councel of <hi>A<g ref="char:EOLhyphen"/>chitophel,</hi> 
+               <note place="margin">The Exam<g ref="char:EOLhyphen"/>ple of <hi>Abſalom</hi> and his Confe<g ref="char:EOLhyphen"/>derates.</note> had rais'd a moſt <hi>
+                  <g ref="char:V">Ʋ</g>nnatural Rebellion</hi> a<g ref="char:EOLhyphen"/>gainſt his own moſt Indulgent Father, <hi>King Da<g ref="char:EOLhyphen"/>vid;</hi> His Puniſhment, though not ſo miraculous, yet was no leſs remarkable than the former.</p>
+            <p>Concerning which, I need ſay no more, than the Words of our <note n="*" place="margin">Vid. <hi>Homil. againſt Rebelli<g ref="char:EOLhyphen"/>on,</hi> Part the <hi>4th.</hi>
+               </note> 
+               <hi>Moſt Loyal Mother, the Church of England:</hi> viz.</p>
+            <p>Abſalom, <hi>though he was moſt Beautiful of Perſon, of great Nobility, being the King's Son, in great Fa<g ref="char:EOLhyphen"/>vour with the People, and followed by a great Ar<g ref="char:EOLhyphen"/>my of them; and ſo dearly beloved by the King him<g ref="char:EOLhyphen"/>ſelf,</hi> 
+               <note place="margin">2 <hi>Sam. c.</hi> 14. <hi>v.</hi> 25.</note> 
+               <hi>that he gave Commandment (notwithſtanding his Rebellion) that his Life ſhould be ſaved: When</hi> 
+               <note place="margin">Et ibid. <hi>Chap. the</hi> 16. 17, <hi>&amp;</hi> 18.</note> 
+               <hi>for theſe Reaſons, moſt Men were afraid to lay vio<g ref="char:EOLhyphen"/>lent Hands upon him, A great Tree, ſtretching out its Arm as it were on purpoſe, caught him by the long Buſh of his goodly Hair, and ſo hang'd him up.</hi>
+            </p>
+            <p>
+               <hi>To give an Eternal Document, That neither Come<g ref="char:EOLhyphen"/>lineſs of Perſonage, neither Nobility of Blood, nor the Favour of the People, no, nor the Favour of the King himſelf, can ſave a Rebel from due Puniſh<g ref="char:EOLhyphen"/>ment.</hi>
+            </p>
+            <pb n="21" facs="tcp:98042:14"/>
+            <p> God <hi>the King of all Kings, being ſo offended with him, that rather than he ſhould want due Executi<g ref="char:EOLhyphen"/>on for his Treaſon, every Tree ſhall be a Gallows, and the Hair of his own Head an Halter to hang him with.</hi>
+            </p>
+            <p>
+               <hi>And as for</hi> Achitophel, <hi>(though otherwiſe an ex<g ref="char:EOLhyphen"/>ceeding</hi> 
+               <note place="margin">Vid. 2 <hi>Sam. c.</hi> 17. <hi>to v</hi> 24.</note> 
+               <hi>Wiſe Man, yet the miſchievous Counſellor in this Rebellion) for lack of an Hang-man, (a conve<g ref="char:EOLhyphen"/>nient Servitor for ſuch a Traytor) he went, and pri<g ref="char:EOLhyphen"/>vately hang'd himſelf.</hi>
+            </p>
+            <p>
+               <hi>Thus happened it to the Captains of that Rebelli<g ref="char:EOLhyphen"/>on,</hi> 
+               <note place="margin">2 <hi>Sam. c.</hi> 18. <hi>v.</hi> 7, <hi>&amp;</hi> 8.</note> 
+               <hi>beſides Forty Thouſand of the Common Rebels ſlain in the Field, and in the Chaſe.</hi>
+            </p>
+            <p>And very few Inſtances of <hi>Rebellion</hi> can we find, (ſhould we ſearch all the Hiſtories of all Ages) but that the Subjects that Rais'd it, or their Poſte<g ref="char:EOLhyphen"/>rity, have ſmarted ſeverely for it: Which will moſt evidently appear, if we look into,</p>
+            <p>
+               <hi>Secondly,</hi> The Hiſtories of our own Nation. <note place="margin">
+                  <hi>2dly.</hi> The Examples ta<g ref="char:EOLhyphen"/>ken out of our own Hiſtories.</note>
+            </p>
+            <p>For, though ſometimes we may have known ſome particular Rebels (ſuch as <hi>Cromwell, Brad<g ref="char:EOLhyphen"/>ſhaw,</hi> and <hi>Shaftsbury,</hi> our Late <hi>Achitophel)</hi> which having Sinn'd above the Revenge of all Temporal Puniſhments, God hath reſerved (we may believe) to His own Vengeance of Eternal Flames, to aſſure us of a Future Life, wherein ſuch Villanies ſhall be puniſh'd; yet we can ſcarcely produce any Exam<g ref="char:EOLhyphen"/>ples of ſuch Rebellions, as did generally benefit the People, or proſper long amongſt Us; but of the contrary, we have many and grand In<g ref="char:EOLhyphen"/>ſtances.</p>
+            <pb n="22" facs="tcp:98042:15"/>
+            <p> I ſhall only take Notice of theſe Three, becauſe they are ſo very Remarkable: <hi>Viz.</hi>
+            </p>
+            <list>
+               <item>I. <hi>That againſt King</hi> Richard <hi>the Second.</hi>
+               </item>
+               <item>II. <hi>The Two laſt</hi> Rebellions <hi>of this preſent Age.</hi>
+               </item>
+            </list>
+            <p>As to the <hi>Firſt:</hi> Though they had forced him <note place="margin">
+                  <hi>1ſt.</hi> The bloody Pu<g ref="char:EOLhyphen"/>niſhment of the Rebellion againſt <hi>Ri<g ref="char:EOLhyphen"/>chard</hi> the II.</note> to Reſign his Crown in open Parliament, to <hi>Henry</hi> of <hi>Bullenbrook,</hi> and had Confirmed it to him, by all the means that Policy could contrive, or Law could dictate; yet (as that Loyal Biſhop of <hi>Car<g ref="char:EOLhyphen"/>liſle,</hi> 
+               <note n="*" place="margin">Mr. <hi>Truſſell's</hi> Hiſt. of <hi>Henry</hi> the IV. p. 52.</note> Dr. <hi>Thomas Merks,</hi> whoſe Name ought al<g ref="char:EOLhyphen"/>wayes to be remembred as a Martyr, for his Loyal<g ref="char:EOLhyphen"/>ty, foretold to them) <hi>The Child that was yet un<g ref="char:EOLhyphen"/>born, did Rue the Work of that Day.</hi> For though this <hi>Rebellion</hi> proſper'd, in the higheſt manner, for Two Generations; yet in the Third, ſuch a War was Rais'd thereby, between the <hi>two Royal Fami<g ref="char:EOLhyphen"/>lies,</hi> as laſted <note n="†" place="margin">Vid. ibid. Hiſt. of <hi>Ri<g ref="char:EOLhyphen"/>chard</hi> the III. p. <hi>ult.</hi>
+               </note> 
+               <hi>near an hundred Years,</hi> and was the Occaſion of the Loſs of the Lives of <hi>near an Hun<g ref="char:EOLhyphen"/>dred Thouſand Subjects;</hi> amongſt which, were moſt of the <hi>Nobility and Gentry</hi> of this Nation.</p>
+            <p>Neither had it had an end ſo ſoon, had not <hi>God</hi> Almighty been pleaſed, of his great Mercy (by ſeveral ſtrange <hi>Over-turnings)</hi> at length to <hi>Give the Crown to them whoſe Right it was,</hi> in whoſe Poſterity both the Families of <hi>York</hi> and <hi>Lancaſter</hi> were firmly United.</p>
+            <p>So fully was that Old Verſe (which ought ne<g ref="char:EOLhyphen"/>ver to be forgotten) confirm'd to us.</p>
+            <l>De male quaeſitis vix gaudent tertius haeres.</l>
+            <l>
+               <hi>The Third Heir ſcarcely ever enjoyes ill-gotten Eſtates.</hi>
+            </l>
+            <pb n="23" facs="tcp:98042:15"/>
+            <p> But I need not go ſo far for Examples of this kind, our own Experience being too well ſupply'd with them, even in this preſent Age; the two laſt Rebellions amongſt us being no leſs apparent Inſtances of the like Puniſhments.</p>
+            <p>For, <hi>Secondly,</hi> As to that Rebellion againſt <note place="margin">
+                  <hi>2dly.</hi> The Rebellion a<g ref="char:EOLhyphen"/>gainſt <hi>Charles</hi> the Firſt.</note> 
+               <hi>Charles the Bleſſed Martyr,</hi> never to be thought on without the utmoſt horror!</p>
+            <p>Though it proſper'd for a while, yet what did we get by it?</p>
+            <p>Inſtead of the <hi>Beſt of Men, and the Beſt of Kings,</hi> (who was inhumanely Murdered by his own Sub<g ref="char:EOLhyphen"/>jects at his own Door, under a damnable pre<g ref="char:EOLhyphen"/>tence of Juſtice) we were forc'd to truckle under <hi>a Baſe and Bloody <g ref="char:V">Ʋ</g>ſurper.</hi>
+            </p>
+            <p>Inſtead of <hi>The beſt Church and Religion</hi> in the World, Eſtabliſhed amongſt us, we had made our Nation nothing but a ſink of all manner <hi>of filthy Schiſmes, Hereſies, and Confuſion.</hi>
+            </p>
+            <p>Inſtead of the Beſt of Governments, under which every Man could Claim the ſame <hi>Right and Law</hi> for his Poſſeſſions, as the King Himſelf, we brought upon our ſelves the <hi>Iron-Rod</hi> of meer <hi>Arbitrary Power,</hi> and knew <hi>no Law nor Right,</hi> but what the <hi>Sword</hi> gave us.</p>
+            <p>Inſtead of the moſt Bleſſed <hi>Peace and Plenty</hi> that our Nation ever enjoyed, we brought upon our ſelves nothing but <hi>Sequeſtrations, Decimati<g ref="char:EOLhyphen"/>ons, Rapine, Sacriledge, and the moſt <g ref="char:V">Ʋ</g>nnatural War and Blood-ſhed.</hi>
+            </p>
+            <p>To Summ up all: All that we got by that <hi>Sea of Blood,</hi> and thoſe <hi>vaſt heaps of Treaſure</hi> ſpent in that Rebellion, was only this, <hi>Viz.</hi> That we had
+<pb n="24" facs="tcp:98042:16"/> entail'd upon our Poſterity (had not <hi>God</hi> been more Merciful unto us) all thoſe things which were the main pretences for thoſe <hi>Fears and Jea<g ref="char:EOLhyphen"/>louſies,</hi> which rais'd the firſt Feuds and Commoti<g ref="char:EOLhyphen"/>ons amongſt us; unleſs we add (which with good reaſon we may) thoſe amazing Judgments of <hi>The moſt Dreadful Fire, and the moſt Raging Peſtilence, which were the Juſt Puniſhments of that moſt unjuſt Rebellion.</hi>
+            </p>
+            <p>But, <hi>Thirdly,</hi> As to this laſt Rebellion. <note place="margin">
+                  <hi>3dly.</hi> The fa<g ref="char:EOLhyphen"/>tal conſequen<g ref="char:EOLhyphen"/>ces that would have enſued, had <hi>Mon<g ref="char:EOLhyphen"/>mouth</hi>'s Rebel<g ref="char:EOLhyphen"/>lion prevail'd.</note>
+            </p>
+            <p>Suppoſing the <hi>Late Monmouth</hi> had prevailed, and by plain force had platted the Crown upon his own head; What could we have expected from ſuch an Uſurpation, but only another War <hi>Be<g ref="char:EOLhyphen"/>tween Him and His Whigg-Parliament,</hi> or elſe be<g ref="char:EOLhyphen"/>tween <hi>the Two Houſes of</hi> York <hi>and</hi> Monmouth, that might (in all probability) have laſted as long, and have been no leſs Bloody than the for<g ref="char:EOLhyphen"/>mer, between <hi>the Two Families of</hi> York <hi>and</hi> Lan<g ref="char:EOLhyphen"/>caſter?</p>
+            <p>But <hi>God</hi> Almighty (thanks to his Holy Name) hath by a moſt ſignal Providence, put an end to all theſe Calamities and Dangers, and hath <hi>
+                  <g ref="char:V">Ʋ</g>tterly Over-turned</hi> both theſe Rebellions, and their Au<g ref="char:EOLhyphen"/>thors and Abettors; almoſt miraculouſly fulfilling the laſt Verſe of the Propheſie of my Text, ſo clearly even to every tittle of it, as though the Prophet had meant it of none but our Times, <hi>Viz. I will Over-turn, Over-turn, Over-turn it, and it ſhall be no more, until he come whoſe right it is, and I will give it him.</hi>
+            </p>
+            <p>For, how wonderfully hath he <hi>Over-turned</hi> the Uſurper his Family, and the Fagg end of a Par<g ref="char:EOLhyphen"/>liament,
+<pb n="25" facs="tcp:98042:16"/> that had unjuſtly ſeiz'd into their own hands the Supream Power of the Kingdom; and made them ſtink in the Noſtrils of all good Men?</p>
+            <p>How prodigiouſly hath He <hi>Over-turn'd</hi> the <hi>Com<g ref="char:EOLhyphen"/>mittees of Safety,</hi> the Keepers of our Liberties, that kept them from us, and the old Invincible Army of Implacable Rebels, and all their Com<g ref="char:EOLhyphen"/>manders, who Uſurp'd the Command of all things amongſt us?</p>
+            <p>
+               <hi>Laſtly,</hi> How miraculouſly hath <hi>He brought the Wheel over the Whiggs,</hi> and <hi>utterly Over-turn'd</hi> them, and all their Rebellious Devices?</p>
+            <p>And by thoſe very Means, by which they thought to have deſtroy'd our <hi>King</hi> and <hi>Govern<g ref="char:EOLhyphen"/>ment,</hi> hath ſo firmly ſettled the <hi>Crown</hi> upon his Head, <hi>whoſe</hi> undoubted <hi>right it is,</hi> and ſo immove<g ref="char:EOLhyphen"/>ably Fixt and Eſtabliſh'd <hi>His Throne,</hi> That (unleſs we, by our Sins and Abuſes of his Mercies, do provoke <hi>God</hi> to permit them) we have Reaſon to believe, that neither the Devil himſelf, the firſt Rebel, nor all his Followers, ſhall ever be able to ſhake it.</p>
+            <p>To ſumm up All that I have ſaid:</p>
+            <p>Since ſeldom or never any <hi>Rebellion</hi> hath long <note place="margin">The general Application of the whole Diſ<g ref="char:EOLhyphen"/>courſe.</note> Proſper'd; but hath generally been, even in this Life, its own Puniſhment: Since it is ſuch a Sin that contains all other Crimes; and no Amends, nor any ſufficient Excuſe can be made for it: And laſtly, Since it is ſuch a Sin, as can very hard<g ref="char:EOLhyphen"/>ly (if at all) be Repented of; and, by Conſe<g ref="char:EOLhyphen"/>quence, Since there is very little or no Hope of
+<pb n="26" facs="tcp:98042:17"/> Forgiveneſs for it: If we have any Regard to our own Happineſs, either in this World, or That which is to come, Let us follow the Wiſeſt Ad<g ref="char:EOLhyphen"/>vice of the Wiſeſt of Men: <hi>viz.</hi> 
+               <note n="*" place="margin">
+                  <hi>Proverbs c.</hi> 24. <hi>v.</hi> 21, <hi>&amp;</hi> 22.</note> 
+               <hi>My Son, fear thou the Lord, and the King, and meddle not with them that are given to Change.</hi>
+            </p>
+            <p>And let us always bear in mind the Reaſon that <hi>Solomon</hi> gives us (the Truth of which our own Experience hath ſo often confirm'd) <hi>viz. For their Calamity ſhall riſe ſuddenly, and who knoweth the ruin of them both?</hi>
+            </p>
+            <p>And, leſt any ſhould be drawn into <hi>Rebellion</hi> with a Shew and Pretence of <hi>Religion,</hi> Let me add the moſt neceſſary Exhortation of the <hi>Great Apoſtle of the Gentiles,</hi> viz. <note n="†" place="margin">
+                  <hi>Rom. c.</hi> 16. <hi>v.</hi> 17, <hi>&amp;</hi> 18.</note> 
+               <hi>Now, I beſeech you, Brethren, mark them that cauſe Diviſions amongſt you, contrary to the Doctrine ye have learned, and a<g ref="char:EOLhyphen"/>void them.</hi>
+            </p>
+            <p>
+               <hi>For they that are ſuch, ſerve not the Lord Jeſus Chriſt, but their own Bellies; and by good Words, and fair Speeches, deceive the Hearts of the Simple.</hi>
+            </p>
+            <p>For ſo long as ſuch <hi>Deceivers</hi> are <hi>mark'd</hi> by the People, for <hi>Godly and Precious Men,</hi> (as to my Knowledge, the greateſt Rebels, even <hi>Ferguſon himſelf,</hi> hath been cry'd up as the <hi>Moſt powerful,</hi> and <hi>Soul-ſaving Preacher</hi> amongſt them) it is im<g ref="char:EOLhyphen"/>poſſible, but that all manner of Rebellious Princi<g ref="char:EOLhyphen"/>ples will be planted in their Heads.</p>
+            <p>But if our Magiſtrates would <hi>Mark ſuch as make Diviſions amongſt us, contrary to the Doctrine we have received</hi> in our Church, ſo as to execute our Laws with all Vigour againſt them; and if all the People would ſo <hi>Mark them,</hi> as to <hi>Avoid</hi>
+               <pb n="27" facs="tcp:98042:17"/> 
+               <hi>them,</hi> it would be impoſſible for them to turn our <hi>Faith into Faction, and our Religion into Re<g ref="char:EOLhyphen"/>bellion.</hi>
+            </p>
+            <p>And methinks, they have ſhewn themſelves ſuch bare-fac'd <hi>Rebels</hi> to all our Nation, that he that can ſtill have ſuch a Kindneſs for them, as to continue ſtill to follow them, doth clearly demonſtrate to the World, that he hath but ve<g ref="char:EOLhyphen"/>ry little <hi>Loyalty to his King,</hi> or <hi>Religion to his GOD.</hi>
+            </p>
+            <p>Let me Conclude All with this ſhort Prayer:</p>
+            <p>
+               <hi>That</hi> God <hi>Almighty would Unite all our Hearts in the Wayes of</hi> True Religion towards Him, <hi>of</hi> Temperance and Sobriety to<g ref="char:EOLhyphen"/>wards our ſelves, <hi>of</hi> Juſtice and Chari<g ref="char:EOLhyphen"/>ty <hi>towards all Men, and of</hi> Duty and Loy<g ref="char:EOLhyphen"/>alty <hi>towards our Soveraign: And that, as He hath ſo ſignally</hi> Over-turn'd <hi>His Ene<g ref="char:EOLhyphen"/>mies,</hi> and given Him the Crown and Diadem, whoſe right it is; <hi>ſo He would pleaſe to</hi> Eſtabliſh the Work that He hath wrought amongſt us, upon the ſure Foun<g ref="char:EOLhyphen"/>dations of Peace, Truth, and Righte<g ref="char:EOLhyphen"/>ouſneſs: <hi>And that to this End, He would bleſs our KING with length of Dayes, and all Happineſs in this Life; and finally, Crown Him with Immortal Glory.</hi>
+            </p>
+            <pb n="28" facs="tcp:98042:18"/>
+            <p> To which Prayer, I am ſure, every True Son of our <hi>Loyal Mother,</hi> the <hi>Church of England,</hi> can<g ref="char:EOLhyphen"/>not but heartily ſay, <hi>AMEN.</hi>
+            </p>
+            <p>Now, To <hi>God the Father, God the Son,</hi> and <hi>God the Holy Ghoſt,</hi> (the Great Diſpoſer of all Things, and the Giver of all Victories) be aſcribed (as is moſt due) all Praiſe and Glory, Majeſty and Dominion, now and for ever<g ref="char:EOLhyphen"/>more,</p>
+            <closer>AMEN.</closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:98042:18"/>
+         </div>
+      </body>
+   </text>
+</TEI>
